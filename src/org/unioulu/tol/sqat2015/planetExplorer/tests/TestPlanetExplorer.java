@@ -34,10 +34,22 @@ public class TestPlanetExplorer {
 		
 	}
 	
+	
+	@Test
+	public void testPlanetExplorerMoveBackWardFromStartEndAtOtherSideOfPlanet(){
+		
+		PlanetExplorer explorer = createDefaultEmptyPlanet();
+		
+		explorer.executeCommand("b");
+		
+		assertEquals("0,99,N", explorer.executeCommand(""));
+	}
+	
+	
+	//HELPER METHODS
 	private PlanetExplorer createDefaultEmptyPlanet(){
 		
 		return new PlanetExplorer(100,100,"");
 	}
-	
 	
 }
