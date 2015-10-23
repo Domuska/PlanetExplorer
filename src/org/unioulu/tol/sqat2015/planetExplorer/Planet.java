@@ -47,7 +47,12 @@ public class Planet {
 		return y;
 	}
 
-
+	/**
+	 * Pointlessly complicated system, could just use arrayList with ints
+	 * @param x coord of the node to check
+	 * @param y coord of the node to check
+	 * @return empty string if no obstacles, otherwise "*"
+	 */
 	public String getContents(int x, int y) {
 		
 		for(int i = 0; i < obstacleArray.size(); i++){
