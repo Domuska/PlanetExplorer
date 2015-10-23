@@ -190,3 +190,14 @@ UnitTestCaseAction 1445593257863 ExplorerTest.java FAIL
 UnitTestSessionAction 1445593257864 ExplorerTest FAIL
 RefactoringAction 1445593299881 Explorer.java ADD String COMMA FIELD
 EditAction 1445593315345 Explorer.java 547 3 6 0
+UnitTestCaseAction 1445593319722 ExplorerTest.java OK
+UnitTestSessionAction 1445593319723 ExplorerTest OK
+RefactoringAction 1445593334754 ExplorerTest.java ADD void testMove FIELD
+RefactoringAction 1445593339266 ExplorerTest.java RENAME testMove=>void testMoveForwardAndTurnRight FIELD
+RefactoringAction 1445593341277 ExplorerTest.java RENAME testMoveForwardAndTurnRight=>void testMoveForward FIELD
+RefactoringAction 1445593348290 ExplorerTest.java RENAME testMoveForward=>void testMoveForwardTurnRightAndMoveFor FIELD
+RefactoringAction 1445593351302 ExplorerTest.java RENAME testMoveForwardTurnRightAndMoveFor=>void testMoveForwardTurnRightAndMoveForwardTwice() METHOD
+RefactoringAction 1445593372877 ExplorerTest.java RENAME testMoveForwardTurnRightAndMoveForwardTwice()=>void testMoveForwardFromNullTurnRightAndMoveForwardTwice() METHOD
+RefactoringAction 1445593378890 ExplorerTest.java RENAME testMoveForward()=>void testMoveForwardFromNull() METHOD
+RefactoringAction 1445593437334 Explorer.java ADD void turnRight() METHOD
+EditAction 1445593440842 ExplorerTest.java 645 2 9 2
