@@ -4,6 +4,7 @@ public class Explorer {
 
 	private int x,y;
 	private String orientation; 
+	private final String COMMA = ",";
 	
 	public Explorer(int x,int y, String orientation){
 		
@@ -12,13 +13,22 @@ public class Explorer {
 		this.orientation = orientation;
 	}
 
-	public Object getPosition() {
-		// TODO Auto-generated method stub
-		return null;
+	public String getPosition() {
+		
+		String position = "" + x + COMMA + y + COMMA + orientation;
+		
+		return position;
 	}
 
 	public void moveForward() {
-		// TODO Auto-generated method stub
 		
+		switch(orientation){
+		
+		case "N":
+			this.x += 1;
+			break;
+		
+		
+		}
 	}
 }
