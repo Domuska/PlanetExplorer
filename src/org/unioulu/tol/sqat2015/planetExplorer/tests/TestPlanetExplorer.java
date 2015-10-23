@@ -30,7 +30,7 @@ public class TestPlanetExplorer {
 		
 		explorer.executeCommand("f");
 		
-		assertEquals("1,0,N", explorer.executeCommand(""));
+		assertEquals("0,1,N", explorer.executeCommand(""));
 		
 	}
 	
