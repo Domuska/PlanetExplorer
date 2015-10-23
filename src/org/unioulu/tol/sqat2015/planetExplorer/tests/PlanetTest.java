@@ -41,9 +41,9 @@ public class PlanetTest {
 		
 		Planet planet = new Planet(100,105);
 		
-		planet.addObstacle(10, 15);
+		planet.addObstacle(10,15);
 		
-		assertEquals("*", planet.getContents(10, 15));
+		assertEquals("*", planet.getContents(10,15));
 	}
 	
 	@Test
