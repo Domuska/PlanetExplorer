@@ -277,3 +277,13 @@ UnitTestSessionAction 1445595178369 ExplorerTest FAIL
 UnitTestCaseAction 1445595211419 ExplorerTest.java FAIL
 UnitTestSessionAction 1445595211420 ExplorerTest FAIL
 EditAction 1445595232836 ExplorerTest.java 1215 4 21 4
+UnitTestCaseAction 1445595238418 ExplorerTest.java OK
+UnitTestSessionAction 1445595238419 ExplorerTest OK
+UnitTestCaseAction 1445595257326 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595257327 TestPlanetExplorer FAIL
+RefactoringAction 1445595327328 Explorer.java ADD int get FIELD
+RefactoringAction 1445595328345 Explorer.java RENAME get=>int getX FIELD
+RefactoringAction 1445595329861 Explorer.java RENAME getX=>int getXPo FIELD
+RefactoringAction 1445595334377 Explorer.java RENAME getXPo=>int getXPostion() METHOD
+RefactoringAction 1445595347440 Explorer.java ADD int getYPosition() METHOD
+EditAction 1445595536247 PlanetExplorer.java 2077 2 6 0
