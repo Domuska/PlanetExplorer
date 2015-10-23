@@ -248,3 +248,8 @@ UnitTestCaseAction 1445594640057 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445594640058 TestPlanetExplorer FAIL
 FileOpenedAction 1445594664808 ExplorerTest.java 938 3 15 3
 EditAction 1445594694684 Explorer.java 1443 6 9 0
+UnitTestCaseAction 1445594703348 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445594703349 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445594714303 ExplorerTest.java FAIL
+UnitTestSessionAction 1445594714304 ExplorerTest FAIL
+EditAction 1445594768466 ExplorerTest.java 938 3 15 3

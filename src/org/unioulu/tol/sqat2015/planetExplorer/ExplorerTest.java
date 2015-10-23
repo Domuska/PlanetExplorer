@@ -13,7 +13,7 @@ public class ExplorerTest {
 		
 		explorer.moveForward();
 		
-		assertEquals("1,0,N", explorer.getPosition());
+		assertEquals("0,1,N", explorer.getPosition());
 		
 	}
 	
@@ -27,7 +27,7 @@ public class ExplorerTest {
 		explorer.moveForward();
 		explorer.moveForward();
 		
-		assertEquals("1,2,E", explorer.getPosition());
+		assertEquals("2,1,E", explorer.getPosition());
 		
 	}
 	
@@ -42,7 +42,7 @@ public class ExplorerTest {
 		explorer.moveBackward();
 		
 		
-		assertEquals("2,1,W", explorer.getPosition());
+		assertEquals("1,2,W", explorer.getPosition());
 	}
 
 }
