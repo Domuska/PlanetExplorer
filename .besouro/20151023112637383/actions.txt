@@ -1,0 +1,11 @@
+FileOpenedAction 1445588797549 PlanetExplorer.java 1342 2 1 0
+RefactoringAction 1445589468601 TestPlanetExplorer.java RENAME test()=>void testPlanetCreation() METHOD
+RefactoringAction 1445589546120 TestPlanetExplorer.java RENAME testPlanetCreation()=>void testPlanetCreationWithP() METHOD
+RefactoringAction 1445589548634 TestPlanetExplorer.java RENAME testPlanetCreationWithP()=>void testPlanetCreationWithPositiveValues() METHOD
+RefactoringAction 1445589618456 Planet.java ADD Planet.java CLASS
+FileOpenedAction 1445589618630 Planet.java 80 0 0 0
+RefactoringAction 1445589629536 PlanetTest.java ADD void test() METHOD
+RefactoringAction 1445589629570 PlanetTest.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1445589629647 PlanetTest.java ADD PlanetTest.java CLASS
+FileOpenedAction 1445589629809 PlanetTest.java 216 1 1 0
+EditAction 1445589638398 PlanetExplorer.java 1371 2 1 0
