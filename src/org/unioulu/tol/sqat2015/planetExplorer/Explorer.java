@@ -19,6 +19,14 @@ public class Explorer {
 		
 		return position;
 	}
+	
+	public int getXPostion(){
+		return x;
+	}
+	
+	public int getYPosition(){
+		return y;
+	}
 
 	public void moveForward() {
 		

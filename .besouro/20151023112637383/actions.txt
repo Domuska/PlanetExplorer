@@ -287,3 +287,4 @@ RefactoringAction 1445595329861 Explorer.java RENAME getX=>int getXPo FIELD
 RefactoringAction 1445595334377 Explorer.java RENAME getXPo=>int getXPostion() METHOD
 RefactoringAction 1445595347440 Explorer.java ADD int getYPosition() METHOD
 EditAction 1445595536247 PlanetExplorer.java 2077 2 6 0
+EditAction 1445595540761 Explorer.java 1628 9 13 0
