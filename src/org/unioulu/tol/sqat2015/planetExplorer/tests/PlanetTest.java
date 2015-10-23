@@ -10,9 +10,18 @@ public class PlanetTest {
 	@Test
 	public void testPlanetCreationWithGoodValues() {
 		
-		Planet planet = new Planet(100,100);
+		Planet planet = new Planet(100,105);
 		
-		assertNotNull(planet);
+		assertEquals(100, planet.getX());
+		assertEquals(105, planet.getY());
+		
+	}
+	
+	@Test
+	public void testPlanetCreationWithNegativeValues(){
+		
+		Planet planet = new Planet(-5,-5);
+		
 		
 	}
 

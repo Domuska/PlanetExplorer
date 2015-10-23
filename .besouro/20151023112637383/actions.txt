@@ -21,3 +21,21 @@ EditAction 1445590136097 PlanetTest.java 352 1 2 1
 CompilationAction 1445590140112 PlanetTest.java
 EditAction 1445590140218 TestPlanetExplorer.java 228 1 1 0
 EditAction 1445590144288 Planet.java 129 1 0 0
+UnitTestCaseAction 1445590149716 PlanetTest.java OK
+UnitTestSessionAction 1445590149722 PlanetTest OK
+RefactoringAction 1445590177968 PlanetTest.java ADD void testPlanetCreationWithNegativeValues() METHOD
+RefactoringAction 1445590208830 Planet.java ADD int x FIELD
+RefactoringAction 1445590208832 Planet.java ADD int y FIELD
+RefactoringAction 1445590239092 Planet.java ADD int getY() METHOD
+RefactoringAction 1445590239093 Planet.java ADD void setY(int) METHOD
+RefactoringAction 1445590247604 Planet.java REMOVE setY(int) METHOD
+RefactoringAction 1445590247605 Planet.java REMOVE getY() METHOD
+RefactoringAction 1445590249618 Planet.java ADD import org.junit.Assert.fail IMPORT
+RefactoringAction 1445590256147 Planet.java ADD import org.junit.Assert.fail IMPORT
+RefactoringAction 1445590264162 Planet.java ADD int getX() METHOD
+RefactoringAction 1445590264163 Planet.java ADD void setX(int) METHOD
+RefactoringAction 1445590264163 Planet.java ADD int getY() METHOD
+RefactoringAction 1445590264164 Planet.java ADD void setY(int) METHOD
+RefactoringAction 1445590270176 Planet.java REMOVE setX(int) METHOD
+RefactoringAction 1445590273187 Planet.java REMOVE setY(int) METHOD
+EditAction 1445590331361 PlanetTest.java 519 2 4 2
