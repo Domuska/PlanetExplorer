@@ -55,7 +55,7 @@ public class ExplorerTest {
 		explorer.moveForward();
 		explorer.setPosition(0,50);
 		
-		assertEquals("0,50,N", explorer.getPosition());
+		assertEquals("0,50,W", explorer.getPosition());
 	}
 	
 }

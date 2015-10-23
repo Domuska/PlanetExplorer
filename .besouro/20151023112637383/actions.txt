@@ -270,3 +270,10 @@ RefactoringAction 1445595093564 ExplorerTest.java RENAME testSetHardLocation0And
 RefactoringAction 1445595153890 Explorer.java ADD void setPosition(int, int) METHOD
 EditAction 1445595158436 ExplorerTest.java 1215 4 21 4
 EditAction 1445595162943 Explorer.java 1539 7 9 0
+UnitTestCaseAction 1445595171851 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595171852 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445595178368 ExplorerTest.java FAIL
+UnitTestSessionAction 1445595178369 ExplorerTest FAIL
+UnitTestCaseAction 1445595211419 ExplorerTest.java FAIL
+UnitTestSessionAction 1445595211420 ExplorerTest FAIL
+EditAction 1445595232836 ExplorerTest.java 1215 4 21 4

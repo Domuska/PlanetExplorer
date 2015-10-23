@@ -101,8 +101,9 @@ public class Explorer {
 		
 	}
 
-	public void setPosition(int i, int j) {
-		// TODO Auto-generated method stub
+	public void setPosition(int x, int y) {
+		this.x = x;
+		this.y = y;
 		
 	}
 
