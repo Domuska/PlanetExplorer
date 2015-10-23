@@ -221,3 +221,10 @@ EditAction 1445593910981 Explorer.java 1443 6 9 0
 UnitTestCaseAction 1445593916549 ExplorerTest.java FAIL
 UnitTestSessionAction 1445593916550 ExplorerTest FAIL
 EditAction 1445593962909 ExplorerTest.java 938 3 15 3
+UnitTestCaseAction 1445593968575 ExplorerTest.java OK
+UnitTestSessionAction 1445593968576 ExplorerTest OK
+RefactoringAction 1445594002929 PlanetExplorer.java RENAME orientation=>Explorer myExplorer FIELD
+FileOpenedAction 1445594020068 Explorer.java 1443 6 9 0
+UnitTestCaseAction 1445594154398 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445594154399 TestPlanetExplorer FAIL
+EditAction 1445594196008 PlanetExplorer.java 1910 2 5 0

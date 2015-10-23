@@ -6,7 +6,8 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class PlanetExplorer {
 	
 	private Planet myPlanet;
-	private String orientation;
+	private Explorer myExplorer;
+	
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -17,6 +18,7 @@ public class PlanetExplorer {
 	 */
 		
 		myPlanet = new Planet(x,y);
+		myExplorer = new Explorer(0,0,"N");
 		
 
 	}
@@ -40,7 +42,21 @@ public class PlanetExplorer {
 			
 			singleCommand = command.charAt(i);
 			
+			switch(singleCommand){
 			
+			case 'f':
+				myExplorer.moveForward();
+				break;
+			case 'b':
+				myExplorer.moveBackward();
+				break;
+			case 'l':
+				myExplorer.turnLeft();
+				break;
+			case 'r':
+				myExplorer.turnRight();
+				break;
+			}
 			
 			
 		}
