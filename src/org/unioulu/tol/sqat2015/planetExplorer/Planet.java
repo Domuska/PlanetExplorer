@@ -49,6 +49,7 @@ public class Planet {
 
 	/**
 	 * Pointlessly complicated system, could just use arrayList with ints
+	 * or something else
 	 * @param x coord of the node to check
 	 * @param y coord of the node to check
 	 * @return empty string if no obstacles, otherwise "*"
