@@ -66,3 +66,9 @@ RefactoringAction 1445590669569 TestPlanetExplorer.java RENAME testPlanetExplore
 RefactoringAction 1445590672082 TestPlanetExplorer.java RENAME testPlanetExplorerWithGoodPlanetSizeAndNo()=>void testPlanetExplorerWithGoodPlanetSizeAndNoObst() METHOD
 RefactoringAction 1445590673595 TestPlanetExplorer.java RENAME testPlanetExplorerWithGoodPlanetSizeAndNoObst()=>void testPlanetExplorerWithGoodPlanetSizeAndNoObstacles() METHOD
 EditAction 1445590701872 TestPlanetExplorer.java 399 1 2 1
+UnitTestCaseAction 1445590709009 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445590709015 TestPlanetExplorer OK
+RefactoringAction 1445590731556 PlanetExplorer.java ADD Planet planet FIELD
+RefactoringAction 1445590735571 PlanetExplorer.java RENAME planet=>Planet myplanet FIELD
+RefactoringAction 1445590736584 PlanetExplorer.java RENAME myplanet=>Planet myPlanet FIELD
+EditAction 1445590764285 PlanetExplorer.java 1428 2 2 0
