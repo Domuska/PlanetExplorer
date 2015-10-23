@@ -13,8 +13,6 @@ public class Planet {
 	private final int DEFAULT_Y_SIZE = 50;
 	
 	/**
-	 * The maximum x and y coordinates that can be reached (100, 100
-	 * makes a planet that has 101 and 101 planes)
 	 * Reverts to 50,50 if the values given in are not good,
 	 * negative values for an example
 	 * @param x plane size of the new planet
@@ -23,7 +21,7 @@ public class Planet {
 	public Planet(int x, int y){
 		
 		if(x > 0){
-			this.x = x;
+			this.x = x-1;
 		}
 		else{
 			this.x = DEFAULT_X_SIZE;
@@ -31,7 +29,7 @@ public class Planet {
 			
 		
 		if(y > 0){
-			this.y = y;
+			this.y = y-1;
 		}
 		
 		else{
