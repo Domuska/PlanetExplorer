@@ -161,3 +161,25 @@ RefactoringAction 1445592439815 TestPlanetExplorer.java RENAME createDefault=>Pl
 RefactoringAction 1445592442829 TestPlanetExplorer.java RENAME createDefaul=>PlanetExplorer createDefaultEmptyPlanet FIELD
 RefactoringAction 1445592444843 TestPlanetExplorer.java RENAME createDefaultEmptyPlanet=>PlanetExplorer createDefaultEmptyPlanet() METHOD
 EditAction 1445592542252 TestPlanetExplorer.java 942 4 8 3
+UnitTestCaseAction 1445592550297 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592550298 TestPlanetExplorer FAIL
+RefactoringAction 1445592586207 PlanetExplorer.java ADD String orientation FIELD
+RefactoringAction 1445592940062 Explorer.java ADD Explorer.java CLASS
+FileOpenedAction 1445592940217 Explorer.java 82 0 0 0
+RefactoringAction 1445592963726 Explorer.java ADD int x FIELD
+RefactoringAction 1445592963728 Explorer.java ADD int y FIELD
+RefactoringAction 1445592981888 ExplorerTest.java ADD void test() METHOD
+RefactoringAction 1445592981893 ExplorerTest.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1445592981995 ExplorerTest.java ADD ExplorerTest.java CLASS
+FileOpenedAction 1445592982150 ExplorerTest.java 218 1 1 0
+RefactoringAction 1445592995383 Explorer.java ADD Explorer() METHOD
+RefactoringAction 1445593005915 Explorer.java RENAME Explorer()=>Explorer(int) METHOD
+RefactoringAction 1445593008422 Explorer.java RENAME Explorer(int)=>Explorer(int, int) METHOD
+RefactoringAction 1445593020386 PlanetExplorer.java REMOVE xCoord FIELD
+RefactoringAction 1445593020388 PlanetExplorer.java REMOVE yCoord FIELD
+RefactoringAction 1445593033968 Explorer.java ADD String orientation FIELD
+RefactoringAction 1445593039983 Explorer.java RENAME Explorer(int, int)=>Explorer(int, int, String) METHOD
+RefactoringAction 1445593073663 ExplorerTest.java RENAME test()=>void testMoveForward() METHOD
+RefactoringAction 1445593134811 Explorer.java ADD Object getPosition() METHOD
+RefactoringAction 1445593138299 Explorer.java ADD void moveForward() METHOD
+EditAction 1445593144376 ExplorerTest.java 335 1 3 1

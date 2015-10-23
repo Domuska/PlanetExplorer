@@ -6,8 +6,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class PlanetExplorer {
 	
 	private Planet myPlanet;
-	private int xCoord, yCoord;
-	
+	private String orientation;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -18,6 +17,8 @@ public class PlanetExplorer {
 	 */
 		
 		myPlanet = new Planet(x,y);
+		
+
 	}
 	
 	
@@ -33,7 +34,16 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		char singleCommand;
 		
+		for(int i = 0; i < command.length(); i++){
+			
+			singleCommand = command.charAt(i);
+			
+			
+			
+			
+		}
 		
 		
 		
