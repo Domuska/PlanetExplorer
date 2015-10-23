@@ -27,13 +27,37 @@ public class Explorer {
 		case "N":
 			this.x += 1;
 			break;
-		
+		case "E":
+			this.y += 1;
+			break;
+		case "S":
+			this.x -= 1;
+			break;
+		case "W":
+			this.y -= 1;
+			break;
 		
 		}
 	}
 
 	public void turnRight() {
-		// TODO Auto-generated method stub
+		
+		switch(orientation){
+		
+		case "N":
+			orientation = "E";
+			break;
+		case "E":
+			orientation = "S";
+			break;
+		case "S":
+			orientation = "W";
+			break;
+		case "W":
+			orientation = "N";
+			break;
+		
+		}
 		
 	}
 }

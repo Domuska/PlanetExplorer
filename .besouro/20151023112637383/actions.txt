@@ -202,3 +202,18 @@ RefactoringAction 1445593378890 ExplorerTest.java RENAME testMoveForward()=>void
 RefactoringAction 1445593437334 Explorer.java ADD void turnRight() METHOD
 EditAction 1445593440842 ExplorerTest.java 645 2 9 2
 EditAction 1445593444559 Explorer.java 623 4 6 0
+UnitTestCaseAction 1445593449155 ExplorerTest.java FAIL
+UnitTestSessionAction 1445593449157 ExplorerTest FAIL
+UnitTestCaseAction 1445593601837 ExplorerTest.java OK
+UnitTestSessionAction 1445593601838 ExplorerTest OK
+RefactoringAction 1445593620249 ExplorerTest.java ADD void testMoveForwardTwice FIELD
+RefactoringAction 1445593623262 ExplorerTest.java RENAME testMoveForwardTwice=>void testMoveForwardTwiceTurnL FIELD
+RefactoringAction 1445593627276 ExplorerTest.java RENAME testMoveForwardTwiceTurnL=>void testMoveForwardTwiceTurnLeftAnd FIELD
+RefactoringAction 1445593629789 ExplorerTest.java RENAME testMoveForwardTwiceTurnLeftAnd=>void testMoveForwardTwiceTurnLeftAndRever FIELD
+RefactoringAction 1445593631302 ExplorerTest.java RENAME testMoveForwardTwiceTurnLeftAndRever=>void testMoveForwardTwiceTurnLeftAndReverse() METHOD
+RefactoringAction 1445593636315 ExplorerTest.java RENAME testMoveForwardTwiceTurnLeftAndReverse()=>void testMoveForwardTwiceTurnLeftAndReverseOnce() METHOD
+RefactoringAction 1445593790595 Explorer.java ADD void turnLeft() METHOD
+RefactoringAction 1445593794925 Explorer.java ADD void moveBackward() METHOD
+RefactoringAction 1445593863944 Explorer.java REMOVE moveBackward() METHOD
+RefactoringAction 1445593866959 Explorer.java ADD void moveBackward() METHOD
+EditAction 1445593906503 ExplorerTest.java 938 3 15 3

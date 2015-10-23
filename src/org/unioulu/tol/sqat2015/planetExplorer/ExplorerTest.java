@@ -30,5 +30,19 @@ public class ExplorerTest {
 		assertEquals("1,2,E", explorer.getPosition());
 		
 	}
+	
+	@Test
+	public void testMoveForwardTwiceTurnLeftAndReverseOnce(){
+		
+		Explorer explorer = new Explorer(0,0,"N");
+		
+		explorer.moveForward();
+		explorer.moveForward();
+		explorer.turnLeft();
+		explorer.moveBackward();
+		
+		
+		assertEquals("2,1,E", explorer.getPosition());
+	}
 
 }
