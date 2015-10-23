@@ -142,3 +142,8 @@ RefactoringAction 1445592210250 TestPlanetExplorer.java RENAME testPlanetExplore
 RefactoringAction 1445592213261 TestPlanetExplorer.java RENAME testPlanetExplorerGetCoordina=>void testPlanetExplorerGet FIELD
 RefactoringAction 1445592217273 TestPlanetExplorer.java RENAME testPlanetExplorerGet=>void testPlanetExplorerGetStartingCoordinates() METHOD
 EditAction 1445592310385 TestPlanetExplorer.java 602 2 4 2
+UnitTestCaseAction 1445592315751 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592315752 TestPlanetExplorer FAIL
+RefactoringAction 1445592347437 PlanetExplorer.java ADD int xCoord FIELD
+RefactoringAction 1445592349449 PlanetExplorer.java ADD int yCoord FIELD
+EditAction 1445592374749 PlanetExplorer.java 1469 2 2 0

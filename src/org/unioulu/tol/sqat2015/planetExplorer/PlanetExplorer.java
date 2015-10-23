@@ -6,6 +6,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class PlanetExplorer {
 	
 	private Planet myPlanet;
+	private int xCoord, yCoord;
 	
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -34,6 +35,8 @@ public class PlanetExplorer {
 		
 		
 		
-		return null;
+		
+		
+		return "0,0,N";
 	}
 }
