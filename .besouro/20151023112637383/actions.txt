@@ -289,3 +289,6 @@ RefactoringAction 1445595347440 Explorer.java ADD int getYPosition() METHOD
 EditAction 1445595536247 PlanetExplorer.java 2077 2 6 0
 EditAction 1445595540761 Explorer.java 1628 9 13 0
 EditAction 1445595548504 Planet.java 1451 5 8 0
+UnitTestCaseAction 1445595557512 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595557513 TestPlanetExplorer FAIL
+EditAction 1445595684262 PlanetExplorer.java 2102 2 6 0
