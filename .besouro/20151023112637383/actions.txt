@@ -201,3 +201,4 @@ RefactoringAction 1445593372877 ExplorerTest.java RENAME testMoveForwardTurnRigh
 RefactoringAction 1445593378890 ExplorerTest.java RENAME testMoveForward()=>void testMoveForwardFromNull() METHOD
 RefactoringAction 1445593437334 Explorer.java ADD void turnRight() METHOD
 EditAction 1445593440842 ExplorerTest.java 645 2 9 2
+EditAction 1445593444559 Explorer.java 623 4 6 0

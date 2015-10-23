@@ -31,4 +31,9 @@ public class Explorer {
 		
 		}
 	}
+
+	public void turnRight() {
+		// TODO Auto-generated method stub
+		
+	}
 }
