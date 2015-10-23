@@ -20,7 +20,8 @@ public class PlanetExplorer {
 		myPlanet = new Planet(x,y);
 		myExplorer = new Explorer(0,0,"N");
 		
-
+		
+		
 	}
 	
 	

@@ -313,3 +313,11 @@ UnitTestCaseAction 1445596090613 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445596090614 TestPlanetExplorer OK
 EditAction 1445596159147 PlanetExplorer.java 2332 2 7 0
 EditAction 1445596210479 TestPlanetExplorer.java 1222 5 11 4
+RefactoringAction 1445596222989 TestPlanetExplorer.java ADD void testPlanetWith FIELD
+RefactoringAction 1445596225004 TestPlanetExplorer.java RENAME testPlanetWith=>void testPlanetWithObstacles FIELD
+RefactoringAction 1445596230019 TestPlanetExplorer.java RENAME testPlanetWithObstacles=>void testPlanetWithObstaclesAt FIELD
+RefactoringAction 1445596232036 TestPlanetExplorer.java RENAME testPlanetWithObstaclesAt=>void testPlanetWithObstaclesAt5And FIELD
+RefactoringAction 1445596233051 TestPlanetExplorer.java RENAME testPlanetWithObstaclesAt5And=>void testPlanetWithObstaclesAt5And5 FIELD
+RefactoringAction 1445596236567 TestPlanetExplorer.java RENAME testPlanetWithObstaclesAt5And5=>void testPlanetWithObstacleAt5And5 FIELD
+RefactoringAction 1445596238082 TestPlanetExplorer.java RENAME testPlanetWithObstacleAt5And5=>void testPlanetWithObstacleAt5And5() METHOD
+EditAction 1445596381427 PlanetExplorer.java 2338 2 7 0
