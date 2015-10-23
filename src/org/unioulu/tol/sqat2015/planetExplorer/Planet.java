@@ -13,6 +13,8 @@ public class Planet {
 	private final int DEFAULT_Y_SIZE = 50;
 	
 	/**
+	 * The maximum x and y coordinates that can be reached (100, 100
+	 * makes a planet that has 101 and 101 planes)
 	 * Reverts to 50,50 if the values given in are not good,
 	 * negative values for an example
 	 * @param x plane size of the new planet
