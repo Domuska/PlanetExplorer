@@ -62,7 +62,7 @@ public class PlanetExplorer {
 		
 		if(myExplorer.getXPostion() < 0){
 			
-			myExplorer.setPosition(myPlanet.getX() - myExplorer.getXPostion(), 
+			myExplorer.setPosition(myPlanet.getX() + myExplorer.getXPostion(), 
 								myExplorer.getYPosition());
 			
 		}
@@ -70,7 +70,7 @@ public class PlanetExplorer {
 		if(myExplorer.getYPosition() < 0){
 			
 			myExplorer.setPosition(myExplorer.getXPostion(),
-								myPlanet.getY() - myExplorer.getYPosition());
+								myPlanet.getY() + myExplorer.getYPosition());
 		}
 		
 		return myExplorer.getPosition();
