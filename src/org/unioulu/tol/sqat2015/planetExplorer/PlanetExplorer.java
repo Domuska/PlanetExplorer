@@ -59,13 +59,18 @@ public class PlanetExplorer {
 			}	
 		}
 		
-		//why does this not work?
-		System.out.println(myExplorer.getXPostion());
+		
 		if(myExplorer.getXPostion() < 0){
 			
 			myExplorer.setPosition(myPlanet.getX() - myExplorer.getXPostion(), 
-					myExplorer.getYPosition());
+								myExplorer.getYPosition());
 			
+		}
+		
+		if(myExplorer.getYPosition() < 0){
+			
+			myExplorer.setPosition(myExplorer.getXPostion(),
+								myPlanet.getY() - myExplorer.getYPosition());
 		}
 		
 		return myExplorer.getPosition();
