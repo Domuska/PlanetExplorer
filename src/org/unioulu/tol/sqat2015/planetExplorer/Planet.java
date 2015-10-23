@@ -5,7 +5,11 @@ public class Planet {
 	int x;
 	int y;
 	
-	
+	/**
+	 * 
+	 * @param x plane size of the new planet
+	 * @param y plane size of the new planet
+	 */
 	public Planet(int x, int y){
 		
 		this.x = x;
