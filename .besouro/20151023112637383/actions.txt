@@ -218,3 +218,6 @@ RefactoringAction 1445593863944 Explorer.java REMOVE moveBackward() METHOD
 RefactoringAction 1445593866959 Explorer.java ADD void moveBackward() METHOD
 EditAction 1445593906503 ExplorerTest.java 938 3 15 3
 EditAction 1445593910981 Explorer.java 1443 6 9 0
+UnitTestCaseAction 1445593916549 ExplorerTest.java FAIL
+UnitTestSessionAction 1445593916550 ExplorerTest FAIL
+EditAction 1445593962909 ExplorerTest.java 938 3 15 3
