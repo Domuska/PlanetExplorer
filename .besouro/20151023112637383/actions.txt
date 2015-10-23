@@ -10,3 +10,11 @@ RefactoringAction 1445589629647 PlanetTest.java ADD PlanetTest.java CLASS
 FileOpenedAction 1445589629809 PlanetTest.java 216 1 1 0
 EditAction 1445589638398 PlanetExplorer.java 1371 2 1 0
 EditAction 1445589642985 TestPlanetExplorer.java 240 1 0 0
+RefactoringAction 1445589655023 PlanetTest.java REMOVE PlanetTest.java CLASS
+RefactoringAction 1445589674806 TestPlanetExplorer.java RENAME testPlanetCreationWithPositiveValues()=>void test() METHOD
+RefactoringAction 1445589680801 PlanetTest.java RENAME test()=>void testPlanetCreation() METHOD
+RefactoringAction 1445589701772 PlanetTest.java ADD import org.unioulu.tol.sqat2015.planetExplorer.Planet IMPORT
+RefactoringAction 1445589743422 PlanetTest.java RENAME testPlanetCreation()=>void testPlanetCreationWith() METHOD
+RefactoringAction 1445589745438 PlanetTest.java RENAME testPlanetCreationWith()=>void testPlanetCreationWithGoodValues() METHOD
+RefactoringAction 1445589784434 Planet.java ADD Planet(int, int) METHOD
+EditAction 1445590136097 PlanetTest.java 352 1 2 1
