@@ -45,4 +45,17 @@ public class ExplorerTest {
 		assertEquals("1,2,W", explorer.getPosition());
 	}
 
+	@Test
+	public void testSetHardLocation0And50(){
+		
+		Explorer explorer = new Explorer(0,0,"N");
+		
+		explorer.moveBackward();
+		explorer.turnLeft();
+		explorer.moveForward();
+		explorer.setPosition(0,50);
+		
+		assertEquals("0,50,N", explorer.getPosition());
+	}
+	
 }

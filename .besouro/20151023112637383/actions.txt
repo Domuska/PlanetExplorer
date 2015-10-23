@@ -260,3 +260,12 @@ UnitTestSessionAction 1445594794478 TestPlanetExplorer FAIL
 EditAction 1445595023685 PlanetExplorer.java 1918 2 5 0
 EditAction 1445595028111 TestPlanetExplorer.java 1216 5 11 4
 EditAction 1445595035858 Explorer.java 1449 6 9 0
+UnitTestCaseAction 1445595041375 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595041376 TestPlanetExplorer FAIL
+RefactoringAction 1445595085006 ExplorerTest.java ADD void testSetHardLocation FIELD
+RefactoringAction 1445595089021 ExplorerTest.java RENAME testSetHardLocation=>void testSetHardLocation0 FIELD
+RefactoringAction 1445595091036 ExplorerTest.java RENAME testSetHardLocation0=>void testSetHardLocation0And99 FIELD
+RefactoringAction 1445595092550 ExplorerTest.java RENAME testSetHardLocation0And99=>void testSetHardLocation0And50 FIELD
+RefactoringAction 1445595093564 ExplorerTest.java RENAME testSetHardLocation0And50=>void testSetHardLocation0And50() METHOD
+RefactoringAction 1445595153890 Explorer.java ADD void setPosition(int, int) METHOD
+EditAction 1445595158436 ExplorerTest.java 1215 4 21 4
