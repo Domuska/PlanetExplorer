@@ -7,9 +7,7 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 
 	@Test
-	public void testPlanetCreationWithPositiveValues() {
-		
-		
-		
+	public void test() {
+		fail("Not yet implemented");
 	}
 }
