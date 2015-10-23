@@ -42,6 +42,18 @@ public class Planet {
 	public int getY() {
 		return y;
 	}
+
+
+	public Object getContents(int i, int j) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+	public void addObstacle(int i, int j) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	

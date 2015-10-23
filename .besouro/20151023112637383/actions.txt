@@ -86,3 +86,4 @@ RefactoringAction 1445590844196 PlanetTest.java RENAME testPlanetObstacleAdditio
 RefactoringAction 1445590915168 Planet.java ADD Object getContents(int, int) METHOD
 RefactoringAction 1445590919798 Planet.java ADD void addObstacle(int, int) METHOD
 EditAction 1445590929415 PlanetTest.java 795 3 9 5
+EditAction 1445590935664 Planet.java 896 5 5 0
