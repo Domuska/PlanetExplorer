@@ -46,6 +46,14 @@ public class TestPlanetExplorer {
 	}
 	
 	
+	//TEST NOT FINISHED, RAN OUT OF TIME
+	@Test
+	public void testPlanetWithObstacleAt5And5(){
+		
+		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)");
+		
+		assert(false);
+	}
 	
 	
 	//HELPER METHODS
