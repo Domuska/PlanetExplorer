@@ -9,3 +9,4 @@ RefactoringAction 1445589629570 PlanetTest.java ADD import org.junit.Assert.* IM
 RefactoringAction 1445589629647 PlanetTest.java ADD PlanetTest.java CLASS
 FileOpenedAction 1445589629809 PlanetTest.java 216 1 1 0
 EditAction 1445589638398 PlanetExplorer.java 1371 2 1 0
+EditAction 1445589642985 TestPlanetExplorer.java 240 1 0 0
