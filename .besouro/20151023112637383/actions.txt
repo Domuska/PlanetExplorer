@@ -72,3 +72,17 @@ RefactoringAction 1445590731556 PlanetExplorer.java ADD Planet planet FIELD
 RefactoringAction 1445590735571 PlanetExplorer.java RENAME planet=>Planet myplanet FIELD
 RefactoringAction 1445590736584 PlanetExplorer.java RENAME myplanet=>Planet myPlanet FIELD
 EditAction 1445590764285 PlanetExplorer.java 1428 2 2 0
+UnitTestCaseAction 1445590771696 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445590771697 TestPlanetExplorer OK
+RefactoringAction 1445590811037 PlanetTest.java ADD void testPlanet FIELD
+RefactoringAction 1445590816555 PlanetTest.java RENAME testPlanet=>void testPlanetObstacleAddition FIELD
+RefactoringAction 1445590820072 PlanetTest.java RENAME testPlanetObstacleAddition=>void testPlanetObstacleAddition() METHOD
+RefactoringAction 1445590834602 PlanetTest.java RENAME testPlanetObstacleAddition()=>void testPlanetObstacleAdditionWithOneObstacleA() METHOD
+RefactoringAction 1445590835617 PlanetTest.java RENAME testPlanetObstacleAdditionWithOneObstacleA()=>void testPlanetObstacleAdditionWithOneObstacleAt() METHOD
+RefactoringAction 1445590836635 PlanetTest.java RENAME testPlanetObstacleAdditionWithOneObstacleAt()=>void testPlanetObstacleAdditionWithOneObstacleAt5 FIELD
+RefactoringAction 1445590841165 PlanetTest.java RENAME testPlanetObstacleAdditionWithOneObstacleAt()=>void testPlanetObstacleAdditionWithOneObstacleAt55() METHOD
+RefactoringAction 1445590843180 PlanetTest.java RENAME testPlanetObstacleAdditionWithOneObstacleAt55()=>void testPlanetObstacleAdditionWithOneObstacleAt5A5() METHOD
+RefactoringAction 1445590844196 PlanetTest.java RENAME testPlanetObstacleAdditionWithOneObstacleAt5A5()=>void testPlanetObstacleAdditionWithOneObstacleAt5And5() METHOD
+RefactoringAction 1445590915168 Planet.java ADD Object getContents(int, int) METHOD
+RefactoringAction 1445590919798 Planet.java ADD void addObstacle(int, int) METHOD
+EditAction 1445590929415 PlanetTest.java 795 3 9 5

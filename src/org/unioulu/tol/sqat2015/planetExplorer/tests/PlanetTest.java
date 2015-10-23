@@ -26,4 +26,14 @@ public class PlanetTest {
 		assertEquals(50, planet.getY());
 	}
 
+	@Test
+	public void testPlanetObstacleAdditionWithOneObstacleAt5And5(){
+		
+		Planet planet = new Planet(100,105);
+		
+		planet.addObstacle(5,5);
+		
+		assertEquals("*", planet.getContents(5,5));
+	}
+	
 }
