@@ -25,16 +25,16 @@ public class Explorer {
 		switch(orientation){
 		
 		case "N":
-			this.x += 1;
-			break;
-		case "E":
 			this.y += 1;
 			break;
+		case "E":
+			this.x += 1;
+			break;
 		case "S":
-			this.x -= 1;
+			this.y -= 1;
 			break;
 		case "W":
-			this.y -= 1;
+			this.x -= 1;
 			break;
 		
 		}
@@ -45,16 +45,16 @@ public class Explorer {
 		switch(orientation){
 		
 		case "N":
-			this.x -= 1;
-			break;
-		case "E":
 			this.y -= 1;
 			break;
+		case "E":
+			this.x -= 1;
+			break;
 		case "S":
-			this.x += 1;
+			this.y += 1;
 			break;
 		case "W":
-			this.y += 1;
+			this.x += 1;
 			break;
 		
 		}
