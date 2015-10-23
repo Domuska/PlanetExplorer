@@ -1,9 +1,13 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.ArrayList;
+
 public class Planet {
 
 	private int x;
 	private int y;
+	
+	private ArrayList<String> obstacleArray = new ArrayList<>();
 	
 	private final int DEFAULT_X_SIZE = 50;
 	private final int DEFAULT_Y_SIZE = 50;
@@ -44,14 +48,18 @@ public class Planet {
 	}
 
 
-	public Object getContents(int i, int j) {
-		// TODO Auto-generated method stub
-		return null;
+	public String getContents(int i, int j) {
+		
+		
+		
+		return "*";
 	}
 
 
 	public void addObstacle(int i, int j) {
-		// TODO Auto-generated method stub
+		String obstacleCoordinates = Integer.toString(i);
+		obstacleCoordinates += Integer.toString(j);
+		obstacleArray.add(obstacleCoordinates);
 		
 	}
 	

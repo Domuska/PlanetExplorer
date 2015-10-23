@@ -87,3 +87,14 @@ RefactoringAction 1445590915168 Planet.java ADD Object getContents(int, int) MET
 RefactoringAction 1445590919798 Planet.java ADD void addObstacle(int, int) METHOD
 EditAction 1445590929415 PlanetTest.java 795 3 9 5
 EditAction 1445590935664 Planet.java 896 5 5 0
+UnitTestCaseAction 1445590941015 PlanetTest.java FAIL
+UnitTestSessionAction 1445590941017 PlanetTest FAIL
+RefactoringAction 1445590987798 Planet.java ADD ArrayList<String> obstacleArray FIELD
+RefactoringAction 1445590998934 Planet.java ADD import java.util.ArrayList IMPORT
+UnitTestCaseAction 1445591171220 PlanetTest.java OK
+UnitTestSessionAction 1445591171222 PlanetTest OK
+RefactoringAction 1445591186785 PlanetTest.java ADD void testPlanetObstacleAdditionWith FIELD
+RefactoringAction 1445591190304 PlanetTest.java RENAME testPlanetObstacleAdditionWith=>void testPlanetObstacleAdditionWithOneObstacleAt FIELD
+RefactoringAction 1445591194321 PlanetTest.java RENAME testPlanetObstacleAdditionWithOneObstacleAt=>void testPlanetObstacleAdditionWithOneObstacleAt10And10() METHOD
+RefactoringAction 1445591215920 PlanetTest.java RENAME testPlanetObstacleAdditionWithOneObstacleAt10And10()=>void testPlanetObstacleAdditionWithOneObstacleAt10And15() METHOD
+EditAction 1445591242652 PlanetTest.java 1011 4 12 6
