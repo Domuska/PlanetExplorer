@@ -59,8 +59,10 @@ public class PlanetExplorer {
 			}	
 		}
 		
+		//why does this not work?
+		System.out.println(myExplorer.getXPostion());
 		if(myExplorer.getXPostion() < 0){
-			System.out.println("ERRORES");
+			
 			myExplorer.setPosition(myPlanet.getX() - myExplorer.getXPostion(), 
 					myExplorer.getYPosition());
 			
