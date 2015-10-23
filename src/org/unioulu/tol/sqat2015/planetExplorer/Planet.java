@@ -2,4 +2,10 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 
 public class Planet {
 
+	
+	public Planet(int x, int y){
+		
+		
+	}
+	
 }
