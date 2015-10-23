@@ -39,6 +39,26 @@ public class Explorer {
 		
 		}
 	}
+	
+	public void moveBackward() {
+		
+		switch(orientation){
+		
+		case "N":
+			this.x -= 1;
+			break;
+		case "E":
+			this.y -= 1;
+			break;
+		case "S":
+			this.x += 1;
+			break;
+		case "W":
+			this.y += 1;
+			break;
+		
+		}
+	}
 
 	public void turnRight() {
 		
@@ -60,4 +80,26 @@ public class Explorer {
 		}
 		
 	}
+
+	public void turnLeft() {
+		switch(orientation){
+		
+		case "N":
+			orientation = "W";
+			break;
+		case "E":
+			orientation = "N";
+			break;
+		case "S":
+			orientation = "E";
+			break;
+		case "W":
+			orientation = "S";
+			break;
+		
+		}
+		
+	}
+
+	
 }
