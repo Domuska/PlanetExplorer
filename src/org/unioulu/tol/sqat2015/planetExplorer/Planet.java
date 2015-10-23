@@ -21,7 +21,7 @@ public class Planet {
 	public Planet(int x, int y){
 		
 		if(x > 0){
-			this.x = x-1;
+			this.x = x-2;
 		}
 		else{
 			this.x = DEFAULT_X_SIZE;
@@ -29,7 +29,7 @@ public class Planet {
 			
 		
 		if(y > 0){
-			this.y = y-1;
+			this.y = y-2;
 		}
 		
 		else{
