@@ -18,9 +18,25 @@ public class TestPlanetExplorer {
 	@Test
 	public void testPlanetExplorerGetStartingCoordinates(){
 		
-		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
+		PlanetExplorer explorer = createDefaultEmptyPlanet();
 		
 		assertEquals("0,0,N", explorer.executeCommand(""));
+	}
+	
+	@Test
+	public void testPlanetExplorerMoveOneBlockNorthFromStart(){
+		
+		PlanetExplorer explorer = createDefaultEmptyPlanet();
+		
+		explorer.executeCommand("f");
+		
+		assertEquals("1,0,N", explorer.executeCommand(""));
+		
+	}
+	
+	private PlanetExplorer createDefaultEmptyPlanet(){
+		
+		return new PlanetExplorer(100,100,"");
 	}
 	
 	

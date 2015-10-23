@@ -147,3 +147,17 @@ UnitTestSessionAction 1445592315752 TestPlanetExplorer FAIL
 RefactoringAction 1445592347437 PlanetExplorer.java ADD int xCoord FIELD
 RefactoringAction 1445592349449 PlanetExplorer.java ADD int yCoord FIELD
 EditAction 1445592374749 PlanetExplorer.java 1469 2 2 0
+UnitTestCaseAction 1445592380011 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445592380013 TestPlanetExplorer OK
+RefactoringAction 1445592391557 TestPlanetExplorer.java ADD void testPlanetExplorer FIELD
+RefactoringAction 1445592393570 TestPlanetExplorer.java RENAME testPlanetExplorer=>void testPlanetExplorerMove FIELD
+RefactoringAction 1445592395582 TestPlanetExplorer.java RENAME testPlanetExplorerMove=>void testPlanetExplorerMoveOne FIELD
+RefactoringAction 1445592402689 TestPlanetExplorer.java RENAME testPlanetExplorerMoveOne=>void testPlanetExplorerMoveOneBlockNorth FIELD
+RefactoringAction 1445592404202 TestPlanetExplorer.java RENAME testPlanetExplorerMoveOneBlockNorth=>void testPlanetExplorerMoveOneBlockNorth() METHOD
+RefactoringAction 1445592409227 TestPlanetExplorer.java RENAME testPlanetExplorerMoveOneBlockNorth()=>void testPlanetExplorerMoveOneBlockNorthFromStart() METHOD
+RefactoringAction 1445592436786 TestPlanetExplorer.java ADD PlanetExplorer create FIELD
+RefactoringAction 1445592438801 TestPlanetExplorer.java RENAME create=>PlanetExplorer createDefault FIELD
+RefactoringAction 1445592439815 TestPlanetExplorer.java RENAME createDefault=>PlanetExplorer createDefaul FIELD
+RefactoringAction 1445592442829 TestPlanetExplorer.java RENAME createDefaul=>PlanetExplorer createDefaultEmptyPlanet FIELD
+RefactoringAction 1445592444843 TestPlanetExplorer.java RENAME createDefaultEmptyPlanet=>PlanetExplorer createDefaultEmptyPlanet() METHOD
+EditAction 1445592542252 TestPlanetExplorer.java 942 4 8 3
