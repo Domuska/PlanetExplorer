@@ -59,7 +59,8 @@ public class PlanetExplorer {
 			}	
 		}
 		
-		
+		//if explorer is on negative coordinates, wrap it around 
+		//to the other side of the plane
 		if(myExplorer.getXPostion() < 0){
 			
 			myExplorer.setPosition(myPlanet.getX() + myExplorer.getXPostion(), 
