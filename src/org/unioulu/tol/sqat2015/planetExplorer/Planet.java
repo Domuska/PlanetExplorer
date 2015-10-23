@@ -2,18 +2,35 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 
 public class Planet {
 
-	int x;
-	int y;
+	private int x;
+	private int y;
+	
+	private final int DEFAULT_X_SIZE = 50;
+	private final int DEFAULT_Y_SIZE = 50;
 	
 	/**
-	 * 
+	 * Reverts to 50,50 if the values given in are not good,
+	 * negative values for an example
 	 * @param x plane size of the new planet
 	 * @param y plane size of the new planet
 	 */
 	public Planet(int x, int y){
 		
-		this.x = x;
-		this.y = y;
+		if(x > 0){
+			this.x = x;
+		}
+		else{
+			this.x = DEFAULT_X_SIZE;
+		}
+			
+		
+		if(y > 0){
+			this.y = y;
+		}
+		
+		else{
+			this.y = DEFAULT_Y_SIZE;
+		}
 	}
 
 

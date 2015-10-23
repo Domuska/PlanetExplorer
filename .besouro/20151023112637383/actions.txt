@@ -44,3 +44,10 @@ UnitTestCaseAction 1445590342407 PlanetTest.java OK
 UnitTestSessionAction 1445590342408 PlanetTest OK
 EditAction 1445590406838 PlanetTest.java 587 2 6 4
 EditAction 1445590411451 Planet.java 369 3 4 0
+UnitTestCaseAction 1445590418320 PlanetTest.java FAIL
+UnitTestSessionAction 1445590418321 PlanetTest FAIL
+RefactoringAction 1445590542666 Planet.java ADD INT DEFAULT_X_SIZE FIELD
+RefactoringAction 1445590543681 Planet.java REMOVE DEFAULT_X_SIZE FIELD
+RefactoringAction 1445590545198 Planet.java ADD int DEFAULT_X_SIZE FIELD
+RefactoringAction 1445590546713 Planet.java ADD int DEFAULT_Y_SIZE FIELD
+EditAction 1445590574265 Planet.java 698 3 4 0
