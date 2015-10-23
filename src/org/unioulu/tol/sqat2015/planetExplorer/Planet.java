@@ -7,7 +7,7 @@ public class Planet {
 	private int x;
 	private int y;
 	
-	private ArrayList<String> obstacleArray = new ArrayList<>();
+	private ArrayList<Integer> obstacleArray = new ArrayList<>();
 	
 	private final int DEFAULT_X_SIZE = 50;
 	private final int DEFAULT_Y_SIZE = 50;
@@ -56,7 +56,7 @@ public class Planet {
 	 */
 	public String getContents(int x, int y) {
 		
-		for(int i = 0; i < obstacleArray.size(); i++){
+		/*for(int i = 0; i < obstacleArray.size(); i++){
 			
 			String xCoord = "" + obstacleArray.get(i).charAt(0);
 			String yCoord = "" + obstacleArray.get(i).charAt(1);
@@ -67,18 +67,30 @@ public class Planet {
 					return "*";
 				}
 			}
+		}*/
+		
+		for(int i = 0; i < obstacleArray.size(); i=+2){
+			
+			if(obstacleArray.get(i) == x && obstacleArray.get(i+1) == y){
+				return "*";
+			}
+			
 		}
+		
 		
 		return "";
 	}
 
 
 	public void addObstacle(int x, int y) {
-		String obstacleCoordinates = Integer.toString(x);
-		obstacleCoordinates += Integer.toString(y);
-		System.out.println(obstacleCoordinates);
-		obstacleArray.add(obstacleCoordinates);
+		//String obstacleCoordinates = Integer.toString(x);
+		//obstacleCoordinates += Integer.toString(y);
+		//System.out.println(obstacleCoordinates);
 		
+		
+		//obstacleArray.add(obstacleCoordinates);
+		obstacleArray.add(x);
+		obstacleArray.add(y);
 	}
 	
 	
