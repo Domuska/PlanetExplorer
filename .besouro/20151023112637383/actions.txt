@@ -131,3 +131,6 @@ RefactoringAction 1445592017799 Planet.java ADD ArrayList<nt> obstacleArray FIEL
 RefactoringAction 1445592034346 Planet.java REMOVE addObstacle(int, int) METHOD
 RefactoringAction 1445592036368 Planet.java ADD void addObstacle(int, int) METHOD
 EditAction 1445592118613 Planet.java 1879 5 8 0
+UnitTestCaseAction 1445592123939 PlanetTest.java OK
+UnitTestSessionAction 1445592123940 PlanetTest OK
+EditAction 1445592157579 Planet.java 1335 5 8 0

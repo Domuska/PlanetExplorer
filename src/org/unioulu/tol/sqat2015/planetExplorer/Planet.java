@@ -48,47 +48,27 @@ public class Planet {
 	}
 
 	/**
-	 * Pointlessly complicated system, could just use arrayList with ints
-	 * or something else
+	 * Check if there is an obstacle in the coordinates given
 	 * @param x coord of the node to check
 	 * @param y coord of the node to check
 	 * @return empty string if no obstacles, otherwise "*"
 	 */
 	public String getContents(int x, int y) {
 		
-		/*for(int i = 0; i < obstacleArray.size(); i++){
-			
-			String xCoord = "" + obstacleArray.get(i).charAt(0);
-			String yCoord = "" + obstacleArray.get(i).charAt(1);
-			
-			if(Integer.parseInt(xCoord) == x){
-				
-				if(Integer.parseInt(yCoord) == y){
-					return "*";
-				}
-			}
-		}*/
 		
 		for(int i = 0; i < obstacleArray.size(); i=+2){
 			
 			if(obstacleArray.get(i) == x && obstacleArray.get(i+1) == y){
 				return "*";
 			}
-			
 		}
-		
 		
 		return "";
 	}
 
 
 	public void addObstacle(int x, int y) {
-		//String obstacleCoordinates = Integer.toString(x);
-		//obstacleCoordinates += Integer.toString(y);
-		//System.out.println(obstacleCoordinates);
-		
-		
-		//obstacleArray.add(obstacleCoordinates);
+
 		obstacleArray.add(x);
 		obstacleArray.add(y);
 	}
