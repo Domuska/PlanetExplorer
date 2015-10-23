@@ -48,17 +48,28 @@ public class Planet {
 	}
 
 
-	public String getContents(int i, int j) {
+	public String getContents(int x, int y) {
 		
+		for(int i = 0; i < obstacleArray.size(); i++){
+			
+			String xCoord = "" + obstacleArray.get(i).charAt(0);
+			String yCoord = "" + obstacleArray.get(i).charAt(1);
+			
+			if(Integer.parseInt(xCoord) == x){
+				
+				if(Integer.parseInt(yCoord) == y){
+					return "*";
+				}
+			}
+		}
 		
-		
-		return "*";
+		return "";
 	}
 
 
-	public void addObstacle(int i, int j) {
-		String obstacleCoordinates = Integer.toString(i);
-		obstacleCoordinates += Integer.toString(j);
+	public void addObstacle(int x, int y) {
+		String obstacleCoordinates = Integer.toString(x);
+		obstacleCoordinates += Integer.toString(y);
 		obstacleArray.add(obstacleCoordinates);
 		
 	}
