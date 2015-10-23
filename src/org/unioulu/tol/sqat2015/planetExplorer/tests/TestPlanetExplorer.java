@@ -52,7 +52,7 @@ public class TestPlanetExplorer {
 		
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)");
 		
-		assert(false);
+		fail("not finished");
 	}
 	
 	

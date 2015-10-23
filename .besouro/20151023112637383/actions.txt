@@ -322,3 +322,6 @@ RefactoringAction 1445596236567 TestPlanetExplorer.java RENAME testPlanetWithObs
 RefactoringAction 1445596238082 TestPlanetExplorer.java RENAME testPlanetWithObstacleAt5And5=>void testPlanetWithObstacleAt5And5() METHOD
 EditAction 1445596381427 PlanetExplorer.java 2338 2 7 0
 EditAction 1445596388523 TestPlanetExplorer.java 1412 6 13 4
+UnitTestCaseAction 1445596405696 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445596405697 TestPlanetExplorer OK
+EditAction 1445596430713 TestPlanetExplorer.java 1419 6 13 4
