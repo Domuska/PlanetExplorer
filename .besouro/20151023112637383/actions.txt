@@ -40,3 +40,6 @@ RefactoringAction 1445590270176 Planet.java REMOVE setX(int) METHOD
 RefactoringAction 1445590273187 Planet.java REMOVE setY(int) METHOD
 EditAction 1445590331361 PlanetTest.java 519 2 4 2
 EditAction 1445590335673 Planet.java 268 3 4 0
+UnitTestCaseAction 1445590342407 PlanetTest.java OK
+UnitTestSessionAction 1445590342408 PlanetTest OK
+EditAction 1445590406838 PlanetTest.java 587 2 6 4

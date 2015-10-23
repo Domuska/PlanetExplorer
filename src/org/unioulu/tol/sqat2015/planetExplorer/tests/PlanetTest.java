@@ -22,7 +22,8 @@ public class PlanetTest {
 		
 		Planet planet = new Planet(-5,-5);
 		
-		
+		assertEquals(50, planet.getX());
+		assertEquals(50, planet.getY());
 	}
 
 }
