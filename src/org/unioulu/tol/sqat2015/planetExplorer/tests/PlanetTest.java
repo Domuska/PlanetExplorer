@@ -46,4 +46,11 @@ public class PlanetTest {
 		assertEquals("*", planet.getContents(10, 15));
 	}
 	
+	@Test
+	public void testPlanetObstacleAdditionWithNoObstacles(){
+		
+		Planet planet = new Planet(100,105);
+		
+		assertEquals("*", planet.getContents(10, 15));
+	}
 }

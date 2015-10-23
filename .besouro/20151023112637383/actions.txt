@@ -98,3 +98,9 @@ RefactoringAction 1445591190304 PlanetTest.java RENAME testPlanetObstacleAdditio
 RefactoringAction 1445591194321 PlanetTest.java RENAME testPlanetObstacleAdditionWithOneObstacleAt=>void testPlanetObstacleAdditionWithOneObstacleAt10And10() METHOD
 RefactoringAction 1445591215920 PlanetTest.java RENAME testPlanetObstacleAdditionWithOneObstacleAt10And10()=>void testPlanetObstacleAdditionWithOneObstacleAt10And15() METHOD
 EditAction 1445591242652 PlanetTest.java 1011 4 12 6
+UnitTestCaseAction 1445591249064 PlanetTest.java OK
+UnitTestSessionAction 1445591249065 PlanetTest OK
+RefactoringAction 1445591282185 PlanetTest.java ADD void testPlanetObstacleAdditionWithOneObstacleAt10And15()/2 METHOD
+RefactoringAction 1445591285706 PlanetTest.java RENAME testPlanetObstacleAdditionWithOneObstacleAt10And15()/2=>void testPlanetObstacleAdditionWithOneObstacleAt10And1() METHOD
+RefactoringAction 1445591292226 PlanetTest.java RENAME testPlanetObstacleAdditionWithOneObstacleAt10And1()=>void testPlanetObstacleAdditionWithNoObstacles() METHOD
+EditAction 1445591310072 PlanetTest.java 1180 5 14 7
