@@ -63,6 +63,6 @@ public class PlanetExplorer {
 		
 		
 		
-		return "0,0,N";
+		return myExplorer.getPosition();
 	}
 }
