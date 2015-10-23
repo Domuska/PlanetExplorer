@@ -269,3 +269,4 @@ RefactoringAction 1445595092550 ExplorerTest.java RENAME testSetHardLocation0And
 RefactoringAction 1445595093564 ExplorerTest.java RENAME testSetHardLocation0And50=>void testSetHardLocation0And50() METHOD
 RefactoringAction 1445595153890 Explorer.java ADD void setPosition(int, int) METHOD
 EditAction 1445595158436 ExplorerTest.java 1215 4 21 4
+EditAction 1445595162943 Explorer.java 1539 7 9 0
