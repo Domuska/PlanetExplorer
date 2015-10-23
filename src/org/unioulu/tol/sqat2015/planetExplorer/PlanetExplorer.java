@@ -56,9 +56,7 @@ public class PlanetExplorer {
 			case 'r':
 				myExplorer.turnRight();
 				break;
-			}
-			
-			
+			}	
 		}
 		
 		
