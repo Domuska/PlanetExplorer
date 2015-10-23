@@ -51,6 +51,6 @@ public class PlanetTest {
 		
 		Planet planet = new Planet(100,105);
 		
-		assertEquals("*", planet.getContents(10, 15));
+		assertEquals("", planet.getContents(10, 15));
 	}
 }
