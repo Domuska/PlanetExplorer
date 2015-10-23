@@ -76,6 +76,7 @@ public class Planet {
 	public void addObstacle(int x, int y) {
 		String obstacleCoordinates = Integer.toString(x);
 		obstacleCoordinates += Integer.toString(y);
+		System.out.println(obstacleCoordinates);
 		obstacleArray.add(obstacleCoordinates);
 		
 	}
