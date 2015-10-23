@@ -51,3 +51,18 @@ RefactoringAction 1445590543681 Planet.java REMOVE DEFAULT_X_SIZE FIELD
 RefactoringAction 1445590545198 Planet.java ADD int DEFAULT_X_SIZE FIELD
 RefactoringAction 1445590546713 Planet.java ADD int DEFAULT_Y_SIZE FIELD
 EditAction 1445590574265 Planet.java 698 3 4 0
+UnitTestCaseAction 1445590579612 PlanetTest.java OK
+UnitTestSessionAction 1445590579613 PlanetTest OK
+RefactoringAction 1445590609393 TestPlanetExplorer.java RENAME test()=>void testp() METHOD
+RefactoringAction 1445590612404 TestPlanetExplorer.java RENAME testp()=>void testPlanetExplorer() METHOD
+RefactoringAction 1445590621416 TestPlanetExplorer.java RENAME testPlanetExplorer()=>void testPlanetExplorerWithGood() METHOD
+RefactoringAction 1445590624926 TestPlanetExplorer.java RENAME testPlanetExplorerWithGood()=>void testPlanetExplorerWithGoodPlanet() METHOD
+RefactoringAction 1445590628936 TestPlanetExplorer.java RENAME testPlanetExplorerWithGoodPlanet()=>void testPlanetExplorerWithGoodPlanetSize() METHOD
+RefactoringAction 1445590631455 TestPlanetExplorer.java RENAME testPlanetExplorerWithGoodPlanetSize()=>void test() METHOD
+RefactoringAction 1445590632466 TestPlanetExplorer.java RENAME test()=>void testPlanetExplorerWithGoodPlanetSize() METHOD
+RefactoringAction 1445590649480 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+RefactoringAction 1445590667056 TestPlanetExplorer.java RENAME testPlanetExplorerWithGoodPlanetSize()=>void testPlanetExplorerWithGoodPlanetSizeAndEmpty() METHOD
+RefactoringAction 1445590669569 TestPlanetExplorer.java RENAME testPlanetExplorerWithGoodPlanetSizeAndEmpty()=>void testPlanetExplorerWithGoodPlanetSizeAndNo() METHOD
+RefactoringAction 1445590672082 TestPlanetExplorer.java RENAME testPlanetExplorerWithGoodPlanetSizeAndNo()=>void testPlanetExplorerWithGoodPlanetSizeAndNoObst() METHOD
+RefactoringAction 1445590673595 TestPlanetExplorer.java RENAME testPlanetExplorerWithGoodPlanetSizeAndNoObst()=>void testPlanetExplorerWithGoodPlanetSizeAndNoObstacles() METHOD
+EditAction 1445590701872 TestPlanetExplorer.java 399 1 2 1
