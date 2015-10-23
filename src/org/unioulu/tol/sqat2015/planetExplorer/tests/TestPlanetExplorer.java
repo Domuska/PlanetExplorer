@@ -14,4 +14,14 @@ public class TestPlanetExplorer {
 		
 		assertNotNull(explorer);
 	}
+	
+	@Test
+	public void testPlanetExplorerGetStartingCoordinates(){
+		
+		PlanetExplorer explorer = new PlanetExplorer(100,100,"");
+		
+		assertEquals("0,0,N", explorer.executeCommand(""));
+	}
+	
+	
 }

@@ -134,3 +134,11 @@ EditAction 1445592118613 Planet.java 1879 5 8 0
 UnitTestCaseAction 1445592123939 PlanetTest.java OK
 UnitTestSessionAction 1445592123940 PlanetTest OK
 EditAction 1445592157579 Planet.java 1335 5 8 0
+RefactoringAction 1445592186191 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445592191703 TestPlanetExplorer.java RENAME test=>void testPlanetExplorer FIELD
+RefactoringAction 1445592196726 TestPlanetExplorer.java RENAME testPlanetExplorer=>void testPlanetExplorerGet FIELD
+RefactoringAction 1445592208237 TestPlanetExplorer.java RENAME testPlanetExplorerGet=>void testPlanetExplorerGetC FIELD
+RefactoringAction 1445592210250 TestPlanetExplorer.java RENAME testPlanetExplorerGetC=>void testPlanetExplorerGetCoordina FIELD
+RefactoringAction 1445592213261 TestPlanetExplorer.java RENAME testPlanetExplorerGetCoordina=>void testPlanetExplorerGet FIELD
+RefactoringAction 1445592217273 TestPlanetExplorer.java RENAME testPlanetExplorerGet=>void testPlanetExplorerGetStartingCoordinates() METHOD
+EditAction 1445592310385 TestPlanetExplorer.java 602 2 4 2
